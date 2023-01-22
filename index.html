@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter temperatur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <section class="titleImg">
+            <img src="./images/purple-starry-night-sky-background.jpg" alt="">
+            <h1 class="title">Konwerter temperatur</h1>
+        </section>
+        </header>
+
+        <main>
+        <p class="convText">Konwertuj <span class=tempOne>°C</span> na <span class="tempTwo"> °F</span></p>
+        <div class="conv">
+
+            <div class="convTemp">
+                <input id="temperature" type="numbers" placeholder="podaj temperaturę">
+                <div class="result"></div>
+            </div>
+
+            <div class="btn">
+                <button class="convBtn"><span>konwertuj</span></button>
+                <button class="changeBtn"><span>zamień</span></button>
+                <button class="resetBtn"><span>wyczyść</span></button>
+            </div>
+        </div>
+        </main>
+
+        <footer>
+        <p class="footerText"><a href="https://www.freepik.com/free-photo/purple-starry-night-sky-background_13462592.htm#query=galaxy&position=20&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik</p>
+        </footer>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
